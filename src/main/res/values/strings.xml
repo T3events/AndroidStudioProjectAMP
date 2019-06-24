@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Final5</string>
+    <string name="pick">Pick the combination of sites you would like to search:</string>
+    <string name="poshEbayButton">Search Ebay and Poshmark</string>
+    <string name="mercariPoshButton">Search Poshmark and Mercari</string>
+    <string name="allSitesButton">Search All Sites</string>
+    <string name="ebayMercariButton">Search Ebay and Mercari</string>
+    <string name="about">About</string>
+    <string name="rememberChoice">rememberPref</string>
+    <string name="goBackButton">Go back</string>
+    <string name="tv">This app allows you to choose which sites you would like to search for bargains. You may also PREFERENCES</string>
+    <string name="btnPref">Change look</string>
+    <string name="textsz">Pick what you prefer</string>
+    <string name="tsize">Tap here to change</string>
+    <string name="main_menu">Home</string>
+    <string name="menu_help">Help/About</string>
+    <string name="menu_preferences">Preferences</string>
+
+
+</resources>
