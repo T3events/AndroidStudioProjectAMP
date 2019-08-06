@@ -1,70 +1,31 @@
+// copyright AMP 2019
 package edu.ivytech.final5;
 
-
-import android.content.Intent;
-import android.net.Uri;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
-import android.preference.PreferenceActivity;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.webkit.WebView;
-import android.widget.Button;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
-import android.media.MediaPlayer;
-import android.os.Bundle;
-import android.preference.PreferenceManager;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.ViewGroup;
+
 
 public class MainActivity extends AppCompatActivity {
-    // define vars for widgets
-    public Uri mUrl;
-
-    public Button help;
-    private Button allSitesButton;
-    private Button ebayMercariButton;
-    private Button poshEbayButton;
-    private Button mercariPoshButton;
-
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-      //  View view = inflater.inflate(R.layout.activity_main, container, false);
+    public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // frag setup
+        FragmentManager fm = getFragmentManager();
+        // get/display frag
+        FragmentTransaction ft = fm.beginTransaction();
+        // replacement frag
+        ft.commit();
+
     }
-//   @Override
-    //  public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-
-
-    /* references with view since its a fragment
-    help =(Button)view.findViewById(R.id.help);
-    allSitesButton =(Button)view.findViewById(R.id.allSitesButton);
-    ebayMercariButton =(Button)view.findViewById(R.id.ebayMercariButton);
-    poshEbayButton =(Button)view.findViewById(R.id.poshEbayButton);
-    mercariPoshButton =(Button)view.findViewById(R.id.mercariPoshButton);
-
-    // listeners for buttons
-        help.setOnClickListener(this);
-        allSitesButton.setOnClickListener(this);
-        ebayMercariButton.setOnClickListener(this);
-        poshEbayButton.setOnClickListener(this);
-        mercariPoshButton.setOnClickListener(this);
-
-        return view;
 }
-*/
 
-    // alternate way without Listeners
+//////////////////////////////////////////////////////////////////////////
+    /* WORKS PERFECTLY alternate way without Listeners
     public void onClick(View v) {
 
         Intent intent = null, choose = null;
@@ -121,11 +82,11 @@ public class MainActivity extends AppCompatActivity {
   //      Intent i = new Intent(this, HelpActivity.class);
   //      startActivity(i);
  //   }
-
+-----------------------------------------------------------------------
 
 }
 
 //   mUrl = Uri.parse("https://yahoo.com/");
 //  Intent intent = new Intent(this, SearchFrag.class);
 //  final WebView webview = findViewById(R.id.webview);
-//   mUrl = Uri.parse("https://google.com/");
+*/
