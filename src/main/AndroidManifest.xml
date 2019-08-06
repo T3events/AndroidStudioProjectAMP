@@ -28,13 +28,20 @@
             </intent-filter>
         </activity>
 <!-- Intents to open others -->
+
+        <activity
+            android:name=".SecondaryActivity"
+            android:label="@string/activity_sec"
+            android:screenOrientation="portrait">
+
+        </activity>
         <activity android:name=".HelpActivity"
-        android:label="@string/menu_help"
+        android:label="@string/activity_help"
         android:screenOrientation="portrait" >
 
     </activity>
         <activity android:name=".SettingsActivity"
-            android:label="@string/btnPref"
+            android:label="@string/activity_settings"
             android:screenOrientation="portrait" >
 
         </activity>
