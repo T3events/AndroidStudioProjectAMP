@@ -1,20 +1,28 @@
 <resources>
     <string name="app_name">Final5</string>
-    <string name="pick">Pick the combination of sites you would like to search:</string>
+    <string name="pick">Click on the button for the combination of sites you would like to search:</string>
     <string name="poshEbayButton">Search Ebay and Poshmark</string>
     <string name="mercariPoshButton">Search Poshmark and Mercari</string>
     <string name="allSitesButton">Search All Sites</string>
     <string name="ebayMercariButton">Search Ebay and Mercari</string>
-    <string name="about">About</string>
+    <!-- secondary section -->
+    <string name="textView1">Signup with Invite Code: FAITHPIE333 and get a $5 bonus</string>
+    <string name="Button2">Poshmark Signup</string>
+    <!-- Help and Prefs Sections -->
     <string name="rememberChoice">rememberPref</string>
-    <string name="goBackButton">Go back</string>
-    <string name="tv">This app allows you to choose which sites you would like to search for bargains. You may also PREFERENCES</string>
-    <string name="btnPref">Change look</string>
-    <string name="textsz">Pick what you prefer</string>
-    <string name="tsize">Tap here to change</string>
+    <string name="tv">This app allows you to choose which shopping sites you would like to explore in one search. This saves you time by no longer needing to search each site individually. There\'s a button to take you to a bonus screen in the app so you can get exclusive deals to join these shopping sites. If you\'re not interested in ever searching "all sites", you may disable this button via the Preferences button.</string>
+    <string name="tv2">If the search engines do NOT default to images, you can click the Images tab at the top of the results page</string>
+    <string name="btnPref">Set Preferences</string>
+
+    <!-- menu Section -->
     <string name="main_menu">Home</string>
     <string name="menu_help">Help/About</string>
     <string name="menu_preferences">Preferences</string>
+    <!-- Manifest Section -->
+    <string name="activity_help">Help</string>
+    <string name="activity_settings">Settings</string>
+    <string name="activity_sec">Secondary</string>
+
 
 
 </resources>
